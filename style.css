@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    background-color: #111;
+    color: white;
+    
+}
+#title{
+    color: lime;
+}
+#titletext{
+    font-family: 'Lobster', cursive;
+}
+#todo-item{
+    height: 25px;
+    border-radius: 25px;
+    border-style: none;
+    padding-left: 8px;
+}
+
+#addbtn{
+    background-color: lime;
+    border-radius: 25px;
+    height: 25px;
+    width: 25px;
+    border-style: none;
+    font-size: larger;
+    
+}
+#delall{
+    background-color: red;
+    border-radius: 25px;
+    height: 25px;
+    width: 25px;
+    border-style: none;
+    font-size: larger;
+    
+}
+.del{
+    border-radius: 25px;
+    border: red 2px solid;
+    color: red;
+    background-color: transparent;
+    margin: 10px 2px 0px 0px;
+    
+    
+    
+}
+.del:active{
+    border-radius: 25px;
+    border: red 2px solid;
+    color: #111;
+    background-color: red;
+    
+}
+.edi{
+    border-radius: 25px;
+    border: lime 2px solid;
+    color: lime;
+    background-color: transparent;
+    margin: 10px 2px 0px 0px;
+    
+    
+}
+.edi:active{
+    border-radius: 25px;
+    border: lime 2px solid;
+    color: #111;
+    background-color: lime;
+    
+}
+button:focus {outline:0;}
+input:focus {outline:0;}
+*{
+    /* border: white solid 1px; */
+}
+#taskslist{
+    max-width: 600px ;
+    min-width: 280px;
+    margin: 0px auto 0px auto;
+    
+}
+.spbtn{
+    float: right;
+
+}
+li{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16pt;
+    font-family: 'Lobster', cursive;
+}
